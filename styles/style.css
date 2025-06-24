@@ -121,28 +121,28 @@
   aspect-ratio: 1 / 1;
 }
 
-.card-joy {
-  filter: brightness(1.2) saturate(1.5);
+.card-01 {
+  filter: brightness(1.2);
 }
-.card-mystery {
-  filter: contrast(1.3) brightness(0.7) sepia(0.2);
+.card-02 {
+  filter: contrast(1.3);
 }
-.card-romance {
-  filter: brightness(1.1) contrast(1.1) hue-rotate(-10deg);
+.card-03 {
+  filter: opacity(0.8);
 }
-.card-passion {
-  filter: saturate(2) hue-rotate(330deg) contrast(1.5);
+.card-04 {
+  filter: grayscale(0.8);
 }
-.card-vintage {
-  filter: sepia(0.7) contrast(0.8) brightness(0.9);
+.card-05 {
+  filter: sepia(0.7);
 }
-.card-futurism {
+.card-06 {
   filter: hue-rotate(90deg) brightness(1.2) saturate(2);
 }
-.card-dream {
+.card-07 {
   filter: saturate(3);
 }
-.card-apocalypse {
+.card-08 {
   filter: hue-rotate(-10deg);
 }
 
@@ -354,9 +354,7 @@
   position: fixed;
   top: 50%;
   left: 25%;
-  display: grid;
-  display: none;
-  gap: 30px;
+  display: none;  
   width: 353px;
   height: 191px;
   margin: auto;
@@ -373,6 +371,7 @@
 
 .popup[open] {
   display: grid;
+  gap: 30px;
   grid-template-rows: 1fr auto;
 }
 
