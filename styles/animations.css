@@ -9,13 +9,13 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
-@keyframes heartPulse {
+@keyframes scalePulse {
  from { transform: scale(1); }
   to { transform: scale(1.25); }
 }
 
 
-@keyframes sparksFlicker {
+@keyframes flash {
   0% {
     opacity: 0;
   }
